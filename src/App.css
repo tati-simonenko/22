@@ -1,0 +1,31 @@
+*{
+	box-shadow: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+tbody tr:first-child td{
+	padding-top: 30px!important;
+}
+
+td, th {
+	padding: 0 40px!important;
+	padding-bottom: 30px!important;
+	text-align: center;
+}
+
+tbody {
+    border-collapse: collapse;
+    border-radius: 30px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px black; /* this draws the table border  */ 
+}
+
+.table>:not(:first-child){
+	border-top: none;
+}
+
+tbody, td, tfoot, th, thead, tr{
+	border: none;
+}
+
